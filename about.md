@@ -4,19 +4,11 @@ layout: page
 ---
 ![Profile Image]({% if site.external-image %}{{ site.picture }}{% else %}{{ site.url }}/{{ site.picture }}{% endif %})
 
-<p>Lorem Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+<p>I'm a software engineer who has reached a high-level of programming maturity where nothing really phases me anymore--It doesn't matter if I've never worked with a language before, they all feel similar after a while and are eventually easy to work. I have a masters degree in Computer Science and revere the thrill of solving complicated programming challenges. I enjoy my work--It's both a profession and a hobby for me.</p>
 
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+<p>Currently I specialize in all things space communication at <a href="https://www.jpl.nasa.gov/">NASA's Jet Propulsion Laboratory</a>. I am familiar with a plethora of uplink and downlink space communication standards as published by the <a href="https://public.ccsds.org">Consultative Committee for Space Data Systems (CCSDS)</a>. Often times, when missions have a question about how something is supposed to work or why it's broken, I'm one of the guys that gets looped into the conversation and has the technical expertise to get their problems resolved.</p>
+
+<p>When I'm not buried in code at JPL or in my own personal projects, you might find me out hiking a mountain peak or riding the canyon twisties on one of my motorcycles. If not that, then I'm probably at home enjoying some quality time with my family or playing my kitties -- yes, it doesn't matter how old they get, they're ALWAYS kitties!</p>
 
 <h2>Languages</h2>
 
@@ -26,6 +18,8 @@ proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 	<li>C#</li>
 	<li>Python</li>
 	<li>Javascript</li>
+	<li>Bash - Tcsh Shell Scripting</li>
+	<li>Docker</li>
 	<li>Machine Learning - Tensorflow, Keras</li>
 	<li>Robot Framework</li>
 	<li>Cypress</li>
@@ -35,11 +29,10 @@ proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 
 <h2>Technologies</h2>
 
-<ul class="secondary-skill-list">
+<ul class="skill-list">
 	<li>Unix (Solaris) & linux (Red Hat Enterprise Linux - RHEL)</li>
 	<li>VIM - VI</li>
 	<li>Java Message Service (JMS)</li>
-	<li>Bash - Tcsh Shell Scripting</li>
 	<li>Unix Tools - tcpdump, grep, find, etc</li>
 	<li>Visual Basic (vbscript)</li>
 	<li>Git - GitHub</li>
@@ -68,12 +61,14 @@ proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 
 <h2>Awards</h2>
 <ul class="awards">
-	<li>AMPCS I&T Bonus Team Award - Multimission Ground Systems and Services\nIn recognition of the MMCS Integration and Test Team for completing significant improvements to test procedures and improvements to R8.1 database performance.</li>
-	<li>Voyager Award -  Mission Control Systems Section 3930\n In recognition of setting up the AMPCS end-to-end test infrastructure with industry standards, and leading the R8 Team to use these standards.</li>
-	<li>Multimission Control System Team Award -  Multimission Ground Systems & Services (MGSS)\n Multimission Control System Team Award for recognition of completing I&T of the AMPCS R7.5, MCWS R3.1 & VISTA R3.1 in time for InSight returning to ATLO and M2020 Testbed start.</li>
-	<li>Discover Award -  Deep Space Network Messaging Service Products Subsystem\n Discovery award In recognition of innovation in applying Automated Test Methodology, resulting in successful delivery of the Messaging Service Products V5.2</li>
-	<li>AMMOS Mission Data Processing and Control System Award -  Multimission Ground Systems & Services (MGSS)\n AMMOS Mission Data Processing and Control System Award for extraordinary dedication and commitment in the development and testing of AMPCS software.</li>
-	<li>AMMOS Mission Data Processing and Control System Award -  Multimission Ground Systems & Services (MGSS)\n AMMOS Mission Data Processing and Control System Award for the over and above effort in migrating AMPCS from AccuRev to GitHub, while meeting M2020 and MGSS commitments.</li>
+	<li>Voyager Award -  Mission Control Systems Section 3930 - In recognition of setting up the AMPCS end-to-end test infrastructure with industry standards, and leading the R8 Team to use these standards.</li>
+	<li>Multimission Control System Team Award -  Multimission Ground Systems & Services (MGSS) - Multimission Control System Team Award for recognition of completing I&T of the AMPCS R7.5, MCWS R3.1 & VISTA R3.1 in time for InSight returning to ATLO and M2020 Testbed start.</li>
+	<li>Discover Award -  Deep Space Network Messaging Service Products Subsystem - Discovery award In recognition of innovation in applying Automated Test Methodology, resulting in successful delivery of the Messaging Service Products V5.2</li>
+	<li>AMPCS I&T Bonus Team Award - Multimission Ground Systems and Services - In recognition of the MMCS Integration and Test Team for completing significant improvements to test procedures and improvements to R8.1 database performance.</li>
+	<li>AMMOS Mission Data Processing and Control System Award -  Multimission Ground Systems & Services (MGSS) - AMMOS Mission Data Processing and Control System Award for extraordinary dedication and commitment in the development and testing of AMPCS software.</li>
+	<li>AMMOS Mission Data Processing and Control System Award -  Multimission Ground Systems & Services (MGSS) - AMMOS Mission Data Processing and Control System Award for the over and above effort in migrating AMPCS from AccuRev to GitHub, while meeting M2020 and MGSS commitments.</li>
 </ul>
 
 <h2>Kitties</h2>
+
+<h2>Motorcycles</h2>
