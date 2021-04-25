@@ -2,13 +2,14 @@
 title: About
 layout: page
 ---
+<h1>About Ibraheem</h1>
 ![Profile Image]({% if site.external-image %}{{ site.picture }}{% else %}{{ site.url }}/{{ site.picture }}{% endif %})
 
-<p>I'm a software engineer who has reached a high-level of programming maturity where nothing really phases me anymore--It doesn't matter if I've never worked with a language before, they all feel similar after a while and are eventually easy to work. I have a masters degree in Computer Science and revere the thrill of solving complicated programming challenges. I enjoy my work--It's both a profession and a hobby for me.</p>
+<p>Howdy there! I'm a software engineer with over 6 years of experience and a high-level of programming maturity. Nothing new or unfamiliar really phases me anymore--It doesn't matter if I've never worked with a language before, they all start to feel similar after a while and are eventually easy to use. I have a masters degree in Computer Science and revere the thrill of solving complicated programming challenges. I enjoy my work--It's both a profession and a hobby for me.</p>
 
-<p>Currently I specialize in all things space communication at <a href="https://www.jpl.nasa.gov/">NASA's Jet Propulsion Laboratory</a>. I am familiar with a plethora of uplink and downlink space communication standards as published by the <a href="https://public.ccsds.org">Consultative Committee for Space Data Systems (CCSDS)</a>. Often times, when missions have a question about how something is supposed to work or why it's broken, I'm one of the guys that gets looped into the conversation and has the technical expertise to get their problems resolved.</p>
+<p>Currently I specialize in all things space communication at <a href="https://www.jpl.nasa.gov/">NASA's Jet Propulsion Laboratory (JPL)</a>. I am familiar with a plethora of uplink and downlink space communication standards as published by the <a href="https://public.ccsds.org">Consultative Committee for Space Data Systems (CCSDS)</a>. Often times, when missions have a question about how something is supposed to work or why it's broken, I'm one of the guys that gets looped into the conversation and has the technical expertise to get their problems resolved.</p>
 
-<p>When I'm not buried in code at JPL or in my own personal projects, you might find me out hiking a mountain peak or riding the canyon twisties on one of my motorcycles. If not that, then I'm probably at home enjoying some quality time with my family or playing my kitties -- yes, it doesn't matter how old they get, they're ALWAYS kitties!</p>
+<p>When I'm not buried in code at JPL or in my own personal projects, you might find me out hiking a mountain peak or riding the canyon twisties on one of my motorcycles. If not that, then I'm probably at home enjoying some quality time with my family or playing my kitties -- yes, it doesn't matter how old they get, they're <b>ALWAYS</b> kitties!</p>
 
 <h2>Languages</h2>
 
@@ -69,6 +70,22 @@ layout: page
 	<li>AMMOS Mission Data Processing and Control System Award -  Multimission Ground Systems & Services (MGSS) - AMMOS Mission Data Processing and Control System Award for the over and above effort in migrating AMPCS from AccuRev to GitHub, while meeting M2020 and MGSS commitments.</li>
 </ul>
 
-<h2>Kitties</h2>
+<h2>The Kitty Family</h2>
+![AyahPic](../assets/images/Ayah.jpg){:class="img-inline"}
+<figcaption>Ayah -- The mama cat we rescued, "Ayah" meaning miracle</figcaption>
+![BabyAyahPic](../assets/images/BabyAyahOnBed2.jpg){:class="img-inline"}
+<figcaption>"Baby Ayah" -- Meaning "baby miracle" -- Naturally, she's the biggest cat we have! xD</figcaption>
+![Monkey1](../assets/images/MonkeyComp.jpg){:class="img-inline"}
+<figcaption>Monkey juding us whilst perched atop my computer!</figcaption>
+![Monkey2](../assets/images/Monkey.jpg){:class="img-inline"}
+<figcaption>Monkey takin a nap -- seems comfy.</figcaption>
+![Squash](../assets/images/Squash.jpg){:class="img-inline"}
+<figcaption>Squash enjoying the warmth of my ancient Denon receiver.</figcaption>
 
 <h2>Motorcycles</h2>
+![NT700V](../assets/images/2010NT700V.jpg){:class="img-inline"}
+<figcaption>2010 Honda NT700V -- My primary commuter.</figcaption>
+![VFR800](../assets/images/1998VFR800.jpg){:class="img-inline"}
+<figcaption>1998 Honda VFR800 -- Mountain twisty and leave-everyone-else-in-the-dust specialist.</figcaption>
+![FJR1300](../assets/images/2005FJR1300.jpg){:class="img-inline"}
+<figcaption>2005 Yamaha FJR1300 -- A salavge bike with a beasty engine that kept me riding after I wrecked my first bike!</figcaption>
