@@ -53,7 +53,7 @@ layout: page
 	<li>SolarWinds Log & Even Manager (LEM)</li>
 </ul>
 
-<h2>Papers</h2>
+<h2>Publications</h2>
 
 <ul>
 	<li><a href="http://broncoscholar.library.cpp.edu/handle/10211.3/208026">Network Traffic Images: A Deep Learning Approach to the Challenge of Internet Traffic Classification (Masters Thesis)</a></li>
