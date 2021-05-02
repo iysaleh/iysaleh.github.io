@@ -4,6 +4,8 @@ ul {
   display: flex;
   flex-wrap: wrap;
   list-style: none;
+  margin-left: 0em;
+  margin-right: 2em;
 }
 
 li {
@@ -47,6 +49,8 @@ img {
 @media (max-aspect-ratio: 1/1) and (max-width: 480px) {
   ul {
     flex-direction: row;
+    margin-left: 0em;
+    margin-right: 2em;
   }
 
   li {
