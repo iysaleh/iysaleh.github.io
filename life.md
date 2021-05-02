@@ -10,7 +10,7 @@ layout: life
   {% assign pageurl = page.url | replace: 'index.html', '' %}
   {% if file.path contains pageurl %}
     {% if file.extname == '.jpg' or file.extname == '.jpeg' or file.extname == '.JPG' or file.extname == '.JPEG' %}
-<li><a class="lightbox-image" href="{{site.url}}{{ file.path }}"><img loading="lazy" class="lightbox-image" height=640 width=480 src="{{site.url}}{{ file.path }}" /></a></li>
+<li><a class="lightbox-image" href="{{site.url}}{{ file.path }}"><img loading="lazy" class="lightbox-image" src="{{site.url}}{{ file.path }}" /></a></li>
     {% endif %}
   {% endif %}
 {% endfor %}
