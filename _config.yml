@@ -76,9 +76,12 @@ pagination:
 # if you don't need projects, comment the *projects* configs below
 projects: false
 
-# if you don't need "about" or "blog", comment them out below
+# if you don't need "about" or "blog" or "life", comment them out below
 about: true
+
 blog: false
+
+life: true
 
 # do you want to show the "read time" of the posts?
 read-time: true
@@ -101,12 +104,13 @@ animation: true
 # add default values to specific pages or layouts
 defaults:
   - scope:
-      path: "" # an empty string here means all files in the project
+      path: "assets/life" # an empty string here means all files in the project
       layout: "post"
     values:
       # setting all post to not hidden by default,
       # can be overridden in the front matter for a specific post
       hidden: false
+      image: true
 
 plugins:
   - jekyll-seo-tag
