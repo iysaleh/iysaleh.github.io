@@ -6,6 +6,10 @@ function is_imagelink(url) {
     var p = /([a-z\-_0-9\/\:\.]*\.(jpg|jpeg|png|gif))/i;
     return (url.match(p)) ? true : false;
 }
+function is_videolink(url) {
+    var p = /([a-z\-_0-9\/\:\.]*\.(mp4|avi))/i;
+    return (url.match(p)) ? true : false;
+}
 function is_vimeolink(url,el) {
     var id = false;
     var xmlhttp = new XMLHttpRequest();
@@ -95,6 +99,10 @@ document.addEventListener("DOMContentLoaded", function() {
                 element.classList.add('lightbox-youtube');
                 element.setAttribute('data-id',is_youtubelink(url));
             }
+            if(is_videolink(url) && !element.classList.contains('no-lightbox')) {
+                element.classList.add('lightbox-video');
+                var href = element.getAttribute('href');
+            }
             if(is_imagelink(url) && !element.classList.contains('no-lightbox')) {
                 element.classList.add('lightbox-image');
                 var href = element.getAttribute('href');
@@ -120,6 +128,18 @@ document.addEventListener("DOMContentLoaded", function() {
         element.addEventListener("click", function(event) {
             event.preventDefault();
             document.getElementById('lightbox').innerHTML = '<a id="close"></a><a id="next">&rsaquo;</a><a id="prev">&lsaquo;</a><div class="videoWrapperContainer"><div class="videoWrapper"><iframe src="https://www.youtube.com/embed/'+this.getAttribute('data-id')+'?autoplay=1&showinfo=0&rel=0"></iframe></div>';
+            document.getElementById('lightbox').style.display = 'block';
+
+            setGallery(this);
+        });
+    });
+	
+    //add the html5 video lightbox on click
+    var elements = document.querySelectorAll('a.lightbox-video');
+    elements.forEach(element => {
+        element.addEventListener("click", function(event) {
+            event.preventDefault();
+            document.getElementById('lightbox').innerHTML = '<a id="close"></a><a id="next">&rsaquo;</a><a id="prev">&lsaquo;</a><div class="videoWrapperContainer"><div class="videoWrapper"><iframe src="'+this.getAttribute('href')+'"></iframe></div>';
             document.getElementById('lightbox').style.display = 'block';
 
             setGallery(this);
