@@ -20,6 +20,22 @@
     <img src="https://raw.githubusercontent.com/sergiokopplin/indigo/gh-pages/assets/screen-shot.png" />
 </p>
 
+## How to use
+
+_ Hint this runs just fine on ShadowPi4 _
+'''
+gem install bundler
+bundle install
+bundle exec jekyll serve
+'''
+
+## To compress images to include, use ImageMagick
+```
+# Note this will compress in place, so make sure you copy the imatges!!!!
+magick mogrify -resize "1024x768>" *.jpg
+magick mogrify -quality 80% *.jpg
+```
+
 ## What has inside
 
 - [Jekyll](https://jekyllrb.com/), [Sass](https://sass-lang.com/) ~[RSCSS](https://rscss.io/)~ and [SVG](https://www.w3.org/Graphics/SVG/);
