@@ -5,17 +5,20 @@ layout: page
 <h1>About Ibraheem</h1>
 ![Profile Image]({% if site.external-image %}{{ site.picture }}{% else %}{{ site.url }}/{{ site.picture }}{% endif %})
 
-<p>Howdy there! So somehow you've landed on my page... Welcome! Perhaps you're here due to a professional interest of sorts, in which case, you'd probably better check my <a href="https://www.linkedin.com/in/ibraheem-saleh-35a5636a">LinkedIn</a> for a fairly complete overview of my work history. I'm a software engineer with over 6 years of experience and a high-level of programming maturity. Nothing new or unfamiliar really phases me at this point in my career--It doesn't matter if I've never worked with a coding language before, they all start to feel similar after a while and eventually become easy to use. I have a masters degree in Computer Science and revere the thrill of solving complicated programming challenges. I enjoy my work--It's both a profession and a hobby for me.</p>
+<p>Howdy there! So somehow you've landed on my page... Welcome! Perhaps you're here due to a professional interest of sorts, in which case, you'd probably better check out my <a href="https://www.linkedin.com/in/ibraheem-saleh-35a5636a">LinkedIn</a> for a fairly complete overview of my work history. I'm a software engineer with numerous years of experience and a high-level of programming maturity. Nothing new or unfamiliar really phases me at this point in my career--It doesn't matter if I've never worked with a coding language before, they all start to feel similar after a while and eventually become easy to use. I have a masters degree in Computer Science and revere the thrill of solving complicated programming challenges. I enjoy my work--It's both a profession and a hobby for me.</p>
 
-<p>Currently I specialize in all things space communication at <a href="https://www.jpl.nasa.gov/">NASA's Jet Propulsion Laboratory (JPL)</a>. I am familiar with a plethora of uplink and downlink space communication standards, as published by the <a href="https://public.ccsds.org">Consultative Committee for Space Data Systems (CCSDS)</a>. Often times, when missions have a question about how something is supposed to work or why it's broken, I'm one of the guys that gets looped into the conversation and has the technical expertise to get their problems resolved.</p>
+<p>Currently I am a senior cryptography software engineer at <a href="https://www.sandboxaq.com/">SandboxAQ</a> and focus on all-things post-quantum cryptography and a variety of applications that utilize it.</p>
 
-<p>When I'm not buried in code at JPL or in my own personal projects, you might find me out hiking a mountain peak or riding the canyon twisties on one of my motorcycles. If not that, then I'm probably at home enjoying some quality time with my family or playing my kitties -- yes, it doesn't matter how old they get, they're <b>ALWAYS</b> kitties!</p>
+<p>I previously specialized in space communication at <a href="https://www.jpl.nasa.gov/">NASA's Jet Propulsion Laboratory (JPL)</a>. I am familiar with a plethora of uplink and downlink space communication standards, as published by the <a href="https://public.ccsds.org">Consultative Committee for Space Data Systems (CCSDS)</a>. Often times, when missions have a question about how something is supposed to work or why it's broken, I'm one of the guys that gets looped into the conversation and has the technical expertise to get their problems resolved.</p>
+
+<p>When I'm not buried in code at work or in my own personal projects, you might find me out hiking a mountain peak or riding the canyon twisties on one of my motorcycles. If not that, then I'm probably at home enjoying some quality time with my family or playing my kitties -- yes, it doesn't matter how old they get, they're <b>ALWAYS</b> kitties!</p>
 
 <h2>Languages</h2>
 
 <ul class="skill-list">
 	<li>Java</li>
-	<li>C/C++</li>
+	<li>C</li>
+	<li>C++</li>
 	<li>C#</li>
 	<li>Python</li>
 	<li>Javascript</li>
@@ -71,8 +74,6 @@ layout: page
 </ul>
 
 <h2>The Kitty Family</h2>
-![AyahPic](../assets/images/Ayah.jpg){:class="img-inline"}
-<figcaption>Ayah -- The mama cat we rescued, "Ayah" meaning miracle</figcaption>
 ![BabyAyahPic](../assets/images/BabyAyahOnBed2.jpg){:class="img-inline"}
 <figcaption>"Baby Ayah" -- Meaning "baby miracle" -- Naturally, she's the biggest cat we have! xD</figcaption>
 ![Monkey1](../assets/images/MonkeyComp.jpg){:class="img-inline"}
