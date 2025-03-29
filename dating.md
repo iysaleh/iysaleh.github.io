@@ -1,7 +1,7 @@
 
 Hello!👋
 
-So I wrote this dating app profile a little while back, and it turned out there was practically no-one using app in my area (good for you all not using dating apps... They're garbage!! 💩💩)
+So I wrote this dating app profile a little while back, and it turned out there was practically no-one using the app in my area (good for you all not using dating apps... They're absolute garbage!! 💩💩)
 
 Anyways, I didn't want the write-up to go to waste so I saved it here -- and whaddy'a know, now you get to see it!😄
 
